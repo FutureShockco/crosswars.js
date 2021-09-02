@@ -1,0 +1,62 @@
+{
+  "item1":{
+  "id": "crosswars",
+  "name": "50 TOKENS",
+  "type": "DWD",
+  "img": "dwd",
+  "detail": "Buy any upgrades or units for a cheaper price.",
+  "price": 2.5,
+  "ref": "dwd",
+  "quantity": 50
+},
+"item2":{
+  "id": "crosswars",
+  "name": "100 TOKENS",
+  "type": "DWD",
+  "img": "dwd",
+  "detail": "Buy any upgrades or units for a cheaper price.",
+  "price": 5,
+  "ref": "dwd",
+  "quantity": 100
+},
+"item3":{
+  "id": "crosswars",
+  "name": "200 TOKENS",
+  "type": "DWD",
+  "img": "dwd",
+  "detail": "Buy any upgrades or units for a cheaper price.",
+  "price": 10,
+  "ref": "dwd",
+  "quantity": 200
+},
+"item4":{
+  "id": "crosswars",
+  "name": "500 TOKENS",
+  "type": "DWD",
+  "img": "dwd",
+  "detail": "Buy any upgrades or units for a cheaper price.",
+  "price": 25,
+  "ref": "dwd",
+  "quantity": 5000
+},
+"item5":{
+  "id": "crosswars",
+  "name": "1000 TOKENS",
+  "type": "DWD",
+  "img": "dwd",
+  "detail": "Buy any upgrades or units for a cheaper price.",
+  "price": 50,
+  "ref": "dwd",
+  "quantity": 1000
+},
+"item6":{
+  "id": "crosswars",
+  "name": "5000 TOKENS",
+  "type": "DWD",
+  "img": "dwd",
+  "detail": "Buy any upgrades or units for a cheaper price.",
+  "price": 250,
+  "ref": "dwd",
+  "quantity": 5000
+}
+}

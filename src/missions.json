@@ -1,0 +1,1348 @@
+{
+  "mission1": {
+    "id": "mission1",
+    "name": "Rob the corner shop",
+    "type": "solo",
+    "img": "mission1",
+    "detail": "Steal resources from a small shop in the neighborhood.",
+    "price": 2.5,
+    "limit":"daily",
+    "difficulty": 1,
+    "rewards":[{
+      "cash":{"id":"cash","min":0,"max":1000},
+      "weapon":{"id":"weapon","min":0,"max":1000},
+      "alcohol":{"id":"alcohol","min":0,"max":1000},
+      "dwd":{"id":"dwd","min":0.001,"max":0.050}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":10,
+          "max":15
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":5,
+          "max":10
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":1,
+          "max":5
+        }
+      }
+    ]
+  },
+  "mission2": {
+    "id": "mission2",
+    "name": "Extort the owners",
+    "type": "solo",
+    "img": "mission2",
+    "detail": "Extort resources from market owners.",
+    "price": 5,
+    "limit":"daily",
+    "difficulty": 2,
+    "rewards":[{
+      "cash":{"id":"cash","min":500,"max":2500},
+      "weapon":{"id":"weapon","min":500,"max":2500},
+      "alcohol":{"id":"alcohol","min":500,"max":2500},
+      "dwd":{"id":"dwd","min":0.010,"max":0.075}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":15,
+          "max":25
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":5,
+          "max":15
+        }
+      }
+    ]
+  },
+  "mission3": {
+    "id": "mission3",
+    "name": "Distill Liquor",
+    "type": "solo",
+    "img": "mission3",
+    "detail": "Start to distill some alcohol and don't let revenooers interrupt you.",
+    "price": 10,
+    "limit":"daily",
+    "difficulty": 3,
+    "rewards":[{
+      "cash":{"id":"cash","min":1000,"max":5000},
+      "weapon":{"id":"weapon","min":1000,"max":5000},
+      "alcohol":{"id":"alcohol","min":1000,"max":5000},
+      "dwd":{"id":"dwd","min":0.020,"max":0.100}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":50,
+          "max":100
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":15,
+          "max":25
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":1,
+          "max":15
+        }
+      }
+    ]
+  },
+  "mission4": {
+    "id": "mission4",
+    "name": "Iron Pipeline",
+    "type": "solo",
+    "img": "mission4",
+    "detail": "Show them how Guns can cross state lines as easily as people do.",
+    "price": 25,
+    "limit":"daily",
+    "difficulty": 4,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.030,"max":0.150}
+    }],
+    "units": [
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":50,
+          "max":100
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":15,
+          "max":25
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":1,
+          "max":15
+        }
+      }
+    ]
+  },
+  "mission5": {
+    "id": "mission5",
+    "name": "Punish snitchers",
+    "type": "solo",
+    "img": "mission5",
+    "detail": "Execute a Gang Leader who provided information about you to the cops.",
+    "price": 50,
+    "limit":"weekly",
+    "difficulty": 5,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.040,"max":0.250},
+      "units":[{"id":"unit1","type":"spy","min":0,"max":5}]
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":100,
+          "max":150
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":50,
+          "max":100
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":25,
+          "max":75
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":5,
+          "max":25
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":5,
+          "max":15
+        }
+      }
+    ]
+  },
+  "mission6": {
+    "id": "mission6",
+    "name": "Rob the Warehouse",
+    "type": "solo",
+    "img": "mission6",
+    "detail": "Be quiet, unlock the doors and take all that you can carry.",
+    "price": 250,
+    "limit":"weekly",
+    "difficulty": 6,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.050,"max":0.350}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":150,
+          "max":250
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":75,
+          "max":150
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":25,
+          "max":75
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":1,
+          "max":25
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":1,
+          "max":25
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":1,
+          "max":5
+        }
+      }
+    ]
+  },
+  "mission7": {
+    "id": "mission7",
+    "name": "Art has no price",
+    "type": "solo",
+    "img": "mission7",
+    "detail": "Steal some art from a well guarded museum and sell them on the darkweb.",
+    "price": 250,
+    "limit":"daily",
+    "difficulty": 7,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.060,"max":0.500}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":300,
+          "max":600
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":250,
+          "max":500
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":100,
+          "max":250
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":50,
+          "max":100
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":10,
+          "max":25
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":5,
+          "max":15
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":5,
+          "max":10
+        }
+      }
+    ]
+  },
+  "mission8": {
+    "id": "mission8",
+    "name": "Balls of steel",
+    "type": "solo",
+    "img": "mission8",
+    "detail": "Break into the nearest police station to steal their weapon.",
+    "price": 250,
+    "limit":"weekly",
+    "difficulty": 8,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.070,"max":0.600}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":500,
+          "max":1000
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":250,
+          "max":500
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":100,
+          "max":250
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":50,
+          "max":100
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":25,
+          "max":75
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":10,
+          "max":25
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":5,
+          "max":10
+        }
+      }
+    ]
+  },
+  "mission9": {
+    "id": "mission9",
+    "name": "Crypto Wallets",
+    "type": "solo",
+    "img": "mission9",
+    "detail": "Enter Bittfex, the biggest exchange, and steal all the cryptos with force.",
+    "price": 250,
+    "limit":"weekly",
+    "difficulty": 9,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "future":{"id":"future","min":10,"max":100},
+      "dwd":{"id":"dwd","min":0.080,"max":0.700}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":750,
+          "max":1500
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":500,
+          "max":750
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":250,
+          "max":500
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":150,
+          "max":250
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":50,
+          "max":100
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":25,
+          "max":75
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":10,
+          "max":25
+        }
+      }
+    ]
+  },
+  "mission10": {
+    "id": "mission10",
+    "name": "Blow",
+    "type": "solo",
+    "img": "mission10",
+    "detail": "A contact in Medellin can help you gather more cash but you have to run from FBI.",
+    "price": 250,
+    "limit":"weekly",
+    "difficulty": 10,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "future":{"id":"future","min":0,"max":250},
+      "dwd":{"id":"dwd","min":0.100,"max":1.000}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":1500,
+          "max":2500
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":750,
+          "max":1500
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":500,
+          "max":750
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":250,
+          "max":500
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":100,
+          "max":250
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":75,
+          "max":100
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":50,
+          "max":75
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      }
+    ]
+  },
+  "mission11": {
+    "id": "mission11",
+    "name": "High Noon",
+    "type": "gang",
+    "img": "mission11",
+    "detail": "Hijack a train and take every valuable thing and every valuable person.",
+    "price": 250,
+    "limit":"",
+    "difficulty": 1,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":1,"max":3},
+      "units":[{"id":"unit1","type":"spy","min":0,"max":5}]
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":250,
+          "max":500
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":100,
+          "max":250
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":50,
+          "max":100
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":15,
+          "max":25
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":10,
+          "max":20
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":5,
+          "max":15
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":5,
+          "max":10
+        }
+      }
+    ]
+  },
+  "mission12": {
+    "id": "mission12",
+    "name": "Diamond Rain",
+    "type": "gang",
+    "img": "mission12",
+    "detail": "A world class Diamond exhibition in on. Be a part of the show and steal everything.",
+    "price": 250,
+    "limit":"",
+    "difficulty": 2,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":1,"max":4}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":500,
+          "max":700
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":250,
+          "max":500
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":125,
+          "max":250
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":75,
+          "max":125
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":50,
+          "max":75
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":35,
+          "max":50
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":15,
+          "max":30
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":5,
+          "max":20
+        }
+      }
+    ]
+  },
+  "mission13": {
+    "id": "mission13",
+    "name": "Ocean 101",
+    "type": "gang",
+    "img": "mission13",
+    "detail": "Gather your gang members and Hold up the biggest casino in the world.",
+    "price": 250,
+    "limit":"",
+    "difficulty": 3,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.300,"max":3.000}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":750,
+          "max":1500
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":500,
+          "max":750
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":150,
+          "max":250
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":250,
+          "max":350
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":75,
+          "max":150
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":50,
+          "max":75
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":5,
+          "max":25
+        }
+      }
+    ]
+  },
+  "mission14": {
+    "id": "mission14",
+    "name": "Jewellery Theft",
+    "type": "gang",
+    "img": "mission14",
+    "detail": "Take the crown with your gang and try to escape at any price.",
+    "price": 250,
+    "limit":"",
+    "difficulty": 4,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.500,"max":5.000}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":1500,
+          "max":2500
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":750,
+          "max":1500
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":500,
+          "max":750
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":250,
+          "max":500
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":125,
+          "max":250
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":75,
+          "max":125
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":50,
+          "max":75
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":25,
+          "max":50
+        }
+      }
+    ]
+  },
+  "mission15": {
+    "id": "mission15",
+    "name": "Assassinate a Politician",
+    "type": "gang",
+    "img": "mission15",
+    "detail": "Nobody likes the government nor the politicians. Give them what they really deserve.",
+    "price": 250,
+    "limit":"",
+    "difficulty": 5,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.600,"max":6.000}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":2000,
+          "max":3000
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":1500,
+          "max":2000
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":750,
+          "max":1000
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":500,
+          "max":750
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":250,
+          "max":500
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":125,
+          "max":250
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":75,
+          "max":125
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":50,
+          "max":75
+        }
+      }
+    ]
+  },
+  "mission16": {
+    "id": "mission16",
+    "name": "Federal Reserve Raid",
+    "type": "gang",
+    "img": "mission16",
+    "detail": "A mountain of gold is hidden in this building but guarded by a lot of cops.",
+    "price": 250,
+    "limit":"",
+    "difficulty": 6,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.700,"max":7.000}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":2500,
+          "max":4000
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":1750,
+          "max":2500
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":750,
+          "max":1250
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":500,
+          "max":750
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":350,
+          "max":500
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":250,
+          "max":350
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":150,
+          "max":250
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":100,
+          "max":150
+        }
+      }
+    ]
+  },
+  "mission17": {
+    "id": "mission17",
+    "name": "Suicide Squad at Fort",
+    "type": "gang",
+    "img": "mission17",
+    "detail": "When it's hard to enter in, it's also near impossible to get out alive.",
+    "price": 250,
+    "limit":"",
+    "difficulty": 7,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.800,"max":8.000}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":3000,
+          "max":5000
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":2000,
+          "max":3000
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":1000,
+          "max":1500
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":750,
+          "max":1000
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":500,
+          "max":750
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":250,
+          "max":500
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":125,
+          "max":250
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":150,
+          "max":250
+        }
+      }
+    ]
+  },
+  "mission18": {
+    "id": "mission18",
+    "name": "La Casa De Papel",
+    "type": "gang",
+    "img": "mission18",
+    "detail": "Assault the Royal Mint and print your own money like the International Monetary Fund.",
+    "price": 250,
+    "limit":"",
+    "difficulty": 8,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "dwd":{"id":"dwd","min":0.800,"max":8.000}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":4000,
+          "max":6000
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":2500,
+          "max":4000
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":1250,
+          "max":1750
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":750,
+          "max":1250
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":500,
+          "max":750
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":350,
+          "max":500
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":250,
+          "max":350
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":150,
+          "max":250
+        }
+      }
+    ]
+  },
+  "mission19": {
+    "id": "mission19",
+    "name": "Raid the CIA Agency",
+    "type": "gang",
+    "img": "mission19",
+    "detail": "Shutdown the biggest organization in the world, make blood flow like a river.",
+    "price": 250,
+    "limit":"",
+    "difficulty": 9,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "future":{"id":"future","min":100,"max":1000},
+      "dwd":{"id":"dwd","min":0.800,"max":8.000}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":5000,
+          "max":8000
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":3000,
+          "max":5000
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":1500,
+          "max":2500
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":1000,
+          "max":1250
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":750,
+          "max":1000
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":500,
+          "max":750
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":350,
+          "max":500
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":300,
+          "max":500
+        }
+      }
+    ]
+  },
+  "mission20": {
+    "id": "mission20",
+    "name": "Deutsche Qualität",
+    "type": "gang",
+    "img": "mission20",
+    "detail": "Build up a good team and try to rob the most secure bank in the world.",
+    "price": 250,
+    "limit":"",
+    "difficulty": 10,
+    "rewards":[{
+      "cash":{"id":"cash","min":2500,"max":5000},
+      "weapon":{"id":"weapon","min":2500,"max":5000},
+      "alcohol":{"id":"alcohol","min":2500,"max":5000},
+      "future":{"id":"future","min":0,"max":2500},
+      "dwd":{"id":"dwd","min":1.00,"max":10.000}
+    }],
+    "units": [
+      {
+        "id": "guard",
+        "amount": {
+          "mini":7000,
+          "max":10000
+        }
+      },
+      {
+        "id": "policeman",
+        "amount": {
+          "mini":5000,
+          "max":7000
+        }
+      },
+      {
+        "id": "bodyguard",
+        "amount": {
+          "mini":1750,
+          "max":2500
+        }
+      },
+      {
+        "id": "swat",
+        "amount": {
+          "mini":1250,
+          "max":1750
+        }
+      },
+      {
+        "id": "elitesniper",
+        "amount": {
+          "mini":1000,
+          "max":1250
+        }
+      },
+      {
+        "id": "fbi",
+        "amount": {
+          "mini":750,
+          "max":1000
+        }
+      },
+      {
+        "id": "cia",
+        "amount": {
+          "mini":500,
+          "max":750
+        }
+      },
+      {
+        "id": "military",
+        "amount": {
+          "mini":350,
+          "max":750
+        }
+      }
+    ]
+  }
+}

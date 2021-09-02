@@ -1,0 +1,23 @@
+{
+  "gang":{
+    "5": ["Hyena's","Frog's","Sarcastic","Phony"],
+    "4": ["Steel","Deadly","Strange","Crafty","Polite"],
+    "3": ["Raven's","Serpent's","Wise","Tense","Vulgar"],
+    "2": ["Champion's","Savage","Vicious"],
+    "1": ["Angel's","Splendid","Proud"]
+  },
+  "mafia":{
+    "5": ["Worried","Artificial","Innocent"],
+    "4": ["Mad","Fierce","Bitter","Abrupt","Silent"],
+    "3": ["Brilliant","Threatening","Zealot","Bonny","Mature"],
+    "2": ["Crazy","Cruel","Wicked","Evil","Extravagant","Cynical"],
+    "1": ["Famous"]
+  },
+  "cartel":{
+    "5": ["Jagged","Frailty","Corrupted","Anguish","Timid","Scared","Troubled","Noisy","Dull","Superficial"],
+    "4": ["Plentiful","Minded","Rabid","Silly","Stingy"],
+    "3": ["Clipping","Capable","Insolent"],
+    "2": ["Prime","Crack","Amazing","Critical","Nervous","Neat"],
+    "1": ["Saintly","Stellar","Marvelous","Scientific","Crude"]
+  }
+}

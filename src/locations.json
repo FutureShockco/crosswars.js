@@ -1,0 +1,71 @@
+[{
+    "name": "airport",
+    "id": 452,
+    "locationname": "Paris Charles de Gaulle"
+  },
+  {
+    "name": "airport",
+    "id": 278,
+    "locationname": "Hartsfield-Jackson International Airport"
+  },
+  {
+    "name": "airport",
+    "id": 360,
+    "locationname": "Congonhas-Sâo Paulo Airport"
+  },
+  {
+    "name": "airport",
+    "id": 90,
+    "locationname": "Sheremetyevo International Airport"
+  },
+  {
+    "name": "airport",
+    "id": 166,
+    "locationname": "Johannesburg Airport"
+  },
+  {
+    "name": "airport",
+    "id": 221,
+    "locationname": "Beijing Capital International Airport"
+  },
+  {
+    "name": "airport",
+    "id": 265,
+    "locationname": "Sydney-Kingsford Smith"
+  },
+  {
+    "name": "port",
+    "id": 8,
+    "locationname": null
+  },
+  {
+    "name": "port",
+    "id": 9,
+    "locationname": null
+  },
+  {
+    "name": "port",
+    "id": 10,
+    "locationname": null
+  },
+  {
+    "name": "port",
+    "id": 11,
+    "locationname": "Port de Rio de Janeiro"
+  },
+  {
+    "name": "port",
+    "id": 12,
+    "locationname": null
+  },
+  {
+    "name": "port",
+    "id": 13,
+    "locationname": null
+  },
+  {
+    "name": "port",
+    "id": 14,
+    "locationname": null
+  }
+]

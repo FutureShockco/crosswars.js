@@ -1,0 +1,118 @@
+{
+  "gang": [{
+      "name": "Untouched",
+      "description": "Attacker's will be cursed and suffer reduced $$value1$$ % damage for the turn.",
+      "suffixes": [{
+          "name": "of impurity",
+          "values": [1]
+        },
+        {
+          "name": "of nausea",
+          "values": [2]
+        },
+        {
+          "name": "of ugliness",
+          "values": [3]
+        },
+        {
+          "name": "of morbidity",
+          "values": [4]
+        },
+        {
+          "name": "of atrocity",
+          "values": [5]
+        }
+      ]
+    },
+    {
+      "name": "Counter Attack",
+      "description": "When attacked, there is a chance to immediately counterattack all enemies around."
+    },
+    {
+      "name": "Meat Armor",
+      "description": "Gives bonus HP and damage on every kill and reduces elements damage."
+    },
+    {
+      "name": "Weapons are the best",
+      "description": "When victorius, the loot will be only weapon, no cash and no alcohol."
+    },
+    {
+      "name": "Mortal Strike",
+      "description": "Will have a chance of inflicting critical damage bonus."
+    },
+    {
+      "name": "Bouncerize",
+      "description": "Grant bonus damage to all your bouncers."
+    },
+    {
+      "name": "Kamikaze",
+      "description": "Grant bonus damage to all your hobos."
+    },
+    {
+      "name": "Sword Master",
+      "description": "Grant bonus damage to all your knifers."
+    },
+    {
+      "name": "Negotiator",
+      "description": "Double the bonus of the lawyers."
+    }
+  ],
+  "mafia": [{
+      "name": "Vengeance Aura",
+      "description": "An aura that increases the attack damage of nearby friendly units. If Venge dies, damage bonus will double."
+    },
+    {
+      "name": "Vampiric Aura",
+      "description": "Grants attack lifesteal. Every attack will heal by a percentage of the damage."
+    },
+    {
+      "name": "Master of fire",
+      "description": "All your units make +20 fire damage."
+    },
+    {
+      "name": "Alcohol is the best",
+      "description": "When victorius, the loot will be only alcohol, no cash and no weapon."
+    },
+    {
+      "name": "Hooligan Blood",
+      "description": "Grant bonus damage to all your rowdies."
+    },
+    {
+      "name": "Hit & Run",
+      "description": "Grant bonus speed to all your gunmans."
+    },
+    {
+      "name": "Eye of the Eagle",
+      "description": "Grant bonus damage to all your snipers."
+    },
+    {
+      "name": "Drunken Master",
+      "description": "Double the bonus of the ninjas."
+    }
+  ],
+  "cartel": [{
+      "name": "Faulty Vest",
+      "description": "Enemies mercenaries can't user their bulletproofs."
+    },
+    {
+      "name": "Demoralize",
+      "description": "Reduce the offensive power of your enemy by 2%."
+    },
+    {
+      "name": "Reincarnation",
+      "description": "Will come back on next player turn after being killed slowing enemies around."
+    },
+    {
+      "name": "Money is the best",
+      "description": "When victorius, the loot will be only drygs, no alcohol and no weapons."
+    },
+    {
+      "name": "Mama Lova",
+      "description": "Grant bonus damage to all your big mamas."
+    },
+    {
+      "name": "Commander",
+      "description": "Grant bonus damage to all your mercenaries."
+    }
+  ]
+}
