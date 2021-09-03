@@ -9,7 +9,7 @@
 
 # CrossWars.js
 
-A lightweight JavaScript library for CrossWars
+A lightweight JavaScript library for the crosschain strategy game CrossWars
 
 ## Installation
 
