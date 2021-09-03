@@ -122,7 +122,7 @@ export default class Army {
                     actions.push([attack, { type: 'splash', range: 3 }, dwbuildings[mines.key].name, 1, 1]);
                 }
             }
-        } 
+        }
         else if (this.buildings) {
             if (round === 2 || round === 4 || round === 6) {
                 let defense_system = this.buildings.find(b => b.key === 'defense_system' && b.lvl > 0)
@@ -156,21 +156,21 @@ export default class Army {
                 }
             }
         }
-        if(round !== 1)
-        this.groups.forEach(group => {
-            if (group.undead > 0 && group.key != 'spy' && round != 1 || group.spec.range > 4 || group.spec.skill.type === 'tastynasty' || group.key === 'hobo') {
-                const attack = group.getAttack();
-                if (attack > 0) {
-                    actions.push([attack, group.skill, group.key, group.i, parseInt(group.undead)]);
+        if (round !== 1)
+            this.groups.forEach(group => {
+                if (group.undead > 0 && group.key != 'spy' && round != 1 || group.spec.range > 4 || group.spec.skill.type === 'tastynasty' || group.key === 'hobo') {
+                    const attack = group.getAttack();
+                    if (attack > 0) {
+                        actions.push([attack, group.skill, group.key, group.i, parseInt(group.undead)]);
+                    }
+                } else if (group.undead > 0 && group.key != 'spy') {
+                    const attack = group.getAttack();
+                    if (attack > 0) {
+                        actions.push([attack, group.skill, group.key, group.i, parseInt(group.undead)]);
+                    }
                 }
-            } else if (group.undead > 0 && group.key != 'spy') {
-                const attack = group.getAttack();
-                if (attack > 0) {
-                    actions.push([attack, group.skill, group.key, group.i, parseInt(group.undead)]);
-                }
-            }
-            if (group.grouphealth < 0 || group.grouphealth === 0 && !group.dead) group.kill();
-        });
+                if (group.grouphealth < 0 || group.grouphealth === 0 && !group.dead) group.kill();
+            });
         return actions;
     }
 
@@ -374,17 +374,17 @@ export default class Army {
     }
 
     cost() {
-        let drug_cost = 0;
+        let cash_cost = 0;
         let weapon_cost = 0;
         let alcohol_cost = 0;
         this.groups.forEach(group => {
             if (group.undead > 0) {
-                drug_cost += dwunits[group.key].cash_cost * group.undead
+                cash_cost += dwunits[group.key].cash_cost * group.undead
                 weapon_cost += dwunits[group.key].weapon_cost * group.undead
                 alcohol_cost += dwunits[group.key].alcohol_cost * group.undead
             }
         });
-        return { drug_cost, weapon_cost, alcohol_cost }
+        return { cash_cost, weapon_cost, alcohol_cost }
     }
 
     supply() {

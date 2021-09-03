@@ -13,7 +13,7 @@ const calculateTimeToBuild = (id, coeff, level, hqLevel) =>
     : ((coeff * 2000 * ((Math.sqrt(625 + 100 * (level * 250)) - 25) / 50)) / hqLevel) * 1000;
 
 const calculateTimeToTrain = (coeff, level, amount) =>
- ((coeff * 160 - (level * 70) / 100)) * amount * 1000;
+  ((coeff * 160 - (level * 70) / 100)) * amount * 1000;
 
 const getBalances = (user, ocLvl, timestamp) => {
   const time = (timestamp - new Date(user.last_update).getTime()) / 1000;
@@ -28,7 +28,7 @@ const getBalances = (user, ocLvl, timestamp) => {
     alcohol += (ocLvl + time * user.alcohol_production_rate) * 0.005;
   }
   return {
-    cash: cash > user.drug_storage ? user.cash_storage : cash,
+    cash: cash > user.cash_storage ? user.cash_storage : cash,
     weapon: weapon > user.weapon_storage ? user.weapon_storage : weapon,
     alcohol: alcohol > user.alcohol_storage ? user.alcohol_storage : alcohol,
   };

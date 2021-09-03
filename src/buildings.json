@@ -13,7 +13,7 @@
     "coeff": 4,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "training_facility": {
     "id": "training_facility",
@@ -29,7 +29,7 @@
     "coeff": 1.5,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "operation_center": {
     "id": "operation_center",
@@ -45,7 +45,7 @@
     "coeff": 3,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "pantheon": {
     "id": "pantheon",
@@ -61,7 +61,7 @@
     "coeff": 3,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "research_center": {
     "id": "research_center",
@@ -77,7 +77,7 @@
     "coeff": 3,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "bunker": {
     "id": "bunker",
@@ -93,7 +93,7 @@
     "coeff": 3,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "strategic_center": {
     "id": "strategic_center",
@@ -109,7 +109,7 @@
     "coeff": 4,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "grocery": {
     "id": "grocery",
@@ -126,7 +126,7 @@
     "coeff": 2,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "jewelry": {
     "id": "jewelry",
@@ -143,7 +143,7 @@
     "coeff": 3,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "car_dealer": {
     "id": "car_dealer",
@@ -160,7 +160,7 @@
     "coeff": 4,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "nightclub": {
     "id": "nightclub",
@@ -177,7 +177,7 @@
     "coeff": 6,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "casino": {
     "id": "casino",
@@ -194,7 +194,7 @@
     "coeff": 8,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "money_safe": {
     "id": "money_safe",
@@ -209,15 +209,15 @@
     "coeff": 3,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "3dprint": {
     "id": "3dprint",
-    "type": "weapons",
+    "type": "weapon",
     "score": 5,
     "name": "3D Printing",
-    "desc": "This is the Ammunition shop that you’ve stolen and transformed into a factory to start a small production of WEAPONS.",
-    "production_type": "weapons",
+    "desc": "This is the Ammunition shop that you’ve stolen and transformed into a factory to start a small production of WEAPON.",
+    "production_type": "weapon",
     "production_rate": 0.004,
     "cash_cost": 250,
     "weapon_cost": 0,
@@ -226,15 +226,15 @@
     "coeff": 2,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "gunsmith": {
     "id": "gunsmith",
-    "type": "weapons",
+    "type": "weapon",
     "score": 15,
     "name": "Gunsmith",
-    "desc": "No more only Ammunitions, it’s time to get to a bigger league by producing more WEAPONS in your factory.",
-    "production_type": "weapons",
+    "desc": "No more only Ammunitions, it’s time to get to a bigger league by producing more WEAPON in your factory.",
+    "production_type": "weapon",
     "production_rate": 0.008,
     "cash_cost": 1750,
     "weapon_cost": 0,
@@ -243,15 +243,15 @@
     "coeff": 3,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "weapon_workshop": {
     "id": "weapon_workshop",
-    "type": "weapons",
+    "type": "weapon",
     "score": 50,
     "name": "Weapon Workshop",
-    "desc": "Start your weapon business by smuggling them all over the place and to produces more WEAPONS.",
-    "production_type": "weapons",
+    "desc": "Start your weapon business by smuggling them all over the place and to produces more WEAPON.",
+    "production_type": "weapon",
     "production_rate": 0.015,
     "cash_cost": 3500,
     "weapon_cost": 0,
@@ -260,15 +260,15 @@
     "coeff": 4,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "pyrotechnic": {
     "id": "pyrotechnic",
-    "type": "weapons",
+    "type": "weapon",
     "score": 75,
     "name": "Pyrotechnic Facility",
-    "desc": "This market is a way for you to expand your business and to trade your stuff for even more WEAPONS. Buyers and resellers can’t bargain with you.",
-    "production_type": "weapons",
+    "desc": "This market is a way for you to expand your business and to trade your stuff for even more WEAPON. Buyers and resellers can’t bargain with you.",
+    "production_type": "weapon",
     "production_rate": 0.025,
     "cash_cost": 7500,
     "weapon_cost": 0,
@@ -277,15 +277,15 @@
     "coeff": 6,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "industrial_factory": {
     "id": "industrial_factory",
-    "type": "weapons",
+    "type": "weapon",
     "score": 100,
     "name": "Industrial Factory",
-    "desc": "You are not like any other Drug Lords, you are always after new technology and you know this is the revolution to build WEAPONS at a light speed in your backyard.",
-    "production_type": "weapons",
+    "desc": "You are not like any other Drug Lords, you are always after new technology and you know this is the revolution to build WEAPON at a light speed in your backyard.",
+    "production_type": "weapon",
     "production_rate": 0.05,
     "cash_cost": 15000,
     "weapon_cost": 0,
@@ -294,14 +294,14 @@
     "coeff": 8,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "weapon_storage": {
     "id": "weapon_storage",
-    "type": "weapons",
+    "type": "weapon",
     "score": 5,
     "name": "Weapon Storage",
-    "desc": "This building helps you to stock more WEAPONS and keep them safe from enemies.",
+    "desc": "This building helps you to stock more WEAPON and keep them safe from enemies.",
     "cash_cost": 1000,
     "weapon_cost": 1000,
     "alcohol_cost": 1000,
@@ -309,11 +309,11 @@
     "coeff": 3,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "t_distillery": {
     "id": "t_distillery",
-    "type": "alcohols",
+    "type": "alcohol",
     "score": 5,
     "name": "Traditional Distillery",
     "desc": "This building is the start of your homemade ALCOHOL production",
@@ -326,11 +326,11 @@
     "coeff": 2,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "abbey": {
     "id": "abbey",
-    "type": "alcohols",
+    "type": "alcohol",
     "score": 15,
     "name": "Abbey",
     "desc": "The best way to live in an addiction denial is to own a bar and to cut customer consumption with water to produce more ALCOHOL. ",
@@ -343,11 +343,11 @@
     "coeff": 3,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "brewery": {
     "id": "brewery",
-    "type": "alcohols",
+    "type": "alcohol",
     "score": 50,
     "name": "Brewery",
     "desc": "According to chemistry, ALCOHOL is a solution, then the Brewery is producing more solutions at a good pace.",
@@ -360,11 +360,11 @@
     "coeff": 4,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "castle": {
     "id": "castle",
-    "type": "alcohols",
+    "type": "alcohol",
     "score": 75,
     "name": "Castle",
     "desc": "The Castle produces ALCOHOL by transforming grapes into wine.",
@@ -377,11 +377,11 @@
     "coeff": 6,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "industrial_distillery": {
     "id": "industrial_distillery",
-    "type": "alcohols",
+    "type": "alcohol",
     "score": 100,
     "name": "Industrial Distillery",
     "desc": "The ultimate way to produce ALCOHOL that could fill your water fountain, your bathtub, your swimming pool and your pond in a blink of an eye.",
@@ -394,11 +394,11 @@
     "coeff": 8,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "alcohol_storage": {
     "id": "alcohol_storage",
-    "type": "alcohols",
+    "type": "alcohol",
     "score": 5,
     "name": "Alcohol Silo",
     "desc": "This building helps you to stock more ALCOHOL and keep them safe from enemies.",
@@ -409,7 +409,7 @@
     "coeff": 3,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "camera": {
     "id": "camera",
@@ -425,7 +425,7 @@
     "coeff": 2,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "dogs": {
     "id": "dogs",
@@ -441,7 +441,7 @@
     "coeff": 3,
     "attack": 10,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "troops": {
     "id": "troops",
@@ -457,7 +457,7 @@
     "coeff": 6,
     "attack": 10,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "emergency": {
     "id": "emergency",
@@ -473,7 +473,7 @@
     "coeff": 7.5,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "defense_system": {
     "id": "defense_system",
@@ -489,7 +489,7 @@
     "coeff": 5,
     "attack": 12,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "hidden_mines": {
     "id": "hidden_mines",
@@ -505,7 +505,7 @@
     "coeff": 5,
     "attack": 10,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "gang_hq": {
     "id": "gang_hq",
@@ -522,7 +522,7 @@
     "coeff": 4,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "embassy": {
     "id": "embassy",
@@ -539,7 +539,7 @@
     "coeff": 2,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "academy": {
     "id": "academy",
@@ -556,7 +556,7 @@
     "coeff": 5,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "exchange": {
     "id": "exchange",
@@ -573,7 +573,7 @@
     "coeff": 10,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "scientific_lab": {
     "id": "scientific_lab",
@@ -590,7 +590,7 @@
     "coeff": 7,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "weapon_center": {
     "id": "weapon_center",
@@ -607,7 +607,7 @@
     "coeff": 5,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   },
   "distillery_school": {
     "id": "distillery_school",
@@ -624,6 +624,6 @@
     "coeff": 6,
     "attack": 0,
     "defense": 0,
-    "pay":false
+    "pay": false
   }
 }

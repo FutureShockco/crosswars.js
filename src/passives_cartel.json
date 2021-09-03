@@ -27,7 +27,7 @@
   {
     "id": 2,
     "name": "Money is the best",
-    "description": "When victorius, obtain $$value1$$ % bonus on drugs loot.",
+    "description": "When victorius, obtain $$value1$$ % bonus on cash loot.",
     "suffixes": [{
         "name": "ruined",
         "values": [1]
