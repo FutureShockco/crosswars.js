@@ -9,7 +9,7 @@ const calculateCostToUpgrade = (amount, level) => {
 
 const calculateTimeToBuild = (id, coeff, level, hqLevel) =>
   id === 'headquarters'
-    ? 2500 * ((Math.sqrt(625 + 100 * (level * 250)) - 25) / 50) * 1000
+    ? Math.sqrt(level) * (level * 200000)
     : ((coeff * 2000 * ((Math.sqrt(625 + 100 * (level * 250)) - 25) / 50)) / hqLevel) * 1000;
 
 const calculateTimeToTrain = (coeff, level, amount) =>
@@ -34,9 +34,21 @@ const getBalances = (user, ocLvl, timestamp) => {
   };
 };
 
+const calculateDistanceTime = (fromTerritory, fromBase, toTerritory, toBase) => {
+  const territoryDif = (fromTerritory > toTerritory) ? fromTerritory - toTerritory : toTerritory - fromTerritory
+  const baseDif = (fromBase > toBase) ? fromBase - toBase : toBase - fromBase
+  return territoryDif + baseDif;
+};
+
+const calculateDistanceCost = (moveCost, distance) => {
+  return moveCost * distance;
+};
+
 export default {
   calculateCostToUpgrade,
   calculateTimeToBuild,
   calculateTimeToTrain,
+  calculateDistanceTime,
+  calculateDistanceCost,
   getBalances,
 };
